@@ -11,3 +11,8 @@ analyzer:
   errors:
     unused_import: false
     file_names: false
+  exclude:
+    - build/**
+    - windows/**
+    - macos/**
+    - linux/**
